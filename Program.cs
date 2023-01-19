@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using WebProject.Data;
+using WebProject.DataAccess.Data;
+using WebProject.DataAccess.Repository;
+using WebProject.DataAccess.Repository.IRepository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +10,7 @@ builder.Services.AddRazorPages();
 builder.Services.AddDbContext<AppDbContext>(options=>options.UseSqlServer(
         builder.Configuration.GetConnectionString("DefaultConnection")
     ));
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 var app = builder.Build();
 

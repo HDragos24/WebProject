@@ -1,21 +1,22 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using WebProject.Data;
-using WebProject.Model;
+using WebProject.DataAccess.Data;
+using WebProject.DataAccess.Repository.IRepository;
+using WebProject.Models;
 
-namespace WebProject.Pages.Categories;
+namespace WebProject.Pages.Admin.Categories;
 
 [BindProperties]
 public class CreateModel : PageModel
 {
-     private readonly AppDbContext _db;
-     public Category Category { get; set; }
+    private readonly IUnitOfWork _unitOfWork;
+    public Category Category { get; set; }
 
-     public CreateModel(AppDbContext db)
-     {
-        _db = db;
-     }
-     public void OnGet()
+    public CreateModel(IUnitOfWork unitOfWork)
+    {
+        _unitOfWork = unitOfWork;
+    }
+    public void OnGet()
      {
      }
 
@@ -28,8 +29,8 @@ public class CreateModel : PageModel
 
         if (ModelState.IsValid)
         {
-            await _db.Category.AddAsync(Category);
-            await _db.SaveChangesAsync();
+            _unitOfWork.Category.Add(Category);
+            _unitOfWork.Save();
             TempData["success"] = "Category created successfully.";
             return RedirectToPage("Index");
         }
