@@ -5,11 +5,11 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebProject", "WebProject.csproj", "{E229038A-555A-4523-BC05-1AEC2E43A44B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebProject.DataAccess", "..\WebProject.DataAccess\WebProject.DataAccess.csproj", "{C7C720FC-D9B3-46BF-99BB-1130889F3FBB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebProject.DataAccess", "..\WebProject.DataAccess\WebProject.DataAccess.csproj", "{C7C720FC-D9B3-46BF-99BB-1130889F3FBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebProject.Models", "..\WebProject.Models\WebProject.Models.csproj", "{61B8EBD4-4FD9-438C-AA15-999A6FD7F8E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebProject.Models", "..\WebProject.Models\WebProject.Models.csproj", "{61B8EBD4-4FD9-438C-AA15-999A6FD7F8E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebProject.Utility", "..\WebProject.Utility\WebProject.Utility.csproj", "{912F795B-BE1B-49BE-B7C7-A75186DBDA7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebProject.Utility", "..\WebProject.Utility\WebProject.Utility.csproj", "{912F795B-BE1B-49BE-B7C7-A75186DBDA7D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
