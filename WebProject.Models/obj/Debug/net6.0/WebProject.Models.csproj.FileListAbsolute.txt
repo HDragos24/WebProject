@@ -1,0 +1,12 @@
+C:\Users\dhritcu\OneDrive - ENDAVA\Desktop\Facultate\Medii programare\Proiect sem 1\WebProject.Models\bin\Debug\net6.0\WebProject.Models.deps.json
+C:\Users\dhritcu\OneDrive - ENDAVA\Desktop\Facultate\Medii programare\Proiect sem 1\WebProject.Models\bin\Debug\net6.0\WebProject.Models.dll
+C:\Users\dhritcu\OneDrive - ENDAVA\Desktop\Facultate\Medii programare\Proiect sem 1\WebProject.Models\bin\Debug\net6.0\WebProject.Models.pdb
+C:\Users\dhritcu\OneDrive - ENDAVA\Desktop\Facultate\Medii programare\Proiect sem 1\WebProject.Models\obj\Debug\net6.0\WebProject.Models.csproj.AssemblyReference.cache
+C:\Users\dhritcu\OneDrive - ENDAVA\Desktop\Facultate\Medii programare\Proiect sem 1\WebProject.Models\obj\Debug\net6.0\WebProject.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dhritcu\OneDrive - ENDAVA\Desktop\Facultate\Medii programare\Proiect sem 1\WebProject.Models\obj\Debug\net6.0\WebProject.Models.AssemblyInfoInputs.cache
+C:\Users\dhritcu\OneDrive - ENDAVA\Desktop\Facultate\Medii programare\Proiect sem 1\WebProject.Models\obj\Debug\net6.0\WebProject.Models.AssemblyInfo.cs
+C:\Users\dhritcu\OneDrive - ENDAVA\Desktop\Facultate\Medii programare\Proiect sem 1\WebProject.Models\obj\Debug\net6.0\WebProject.Models.csproj.CoreCompileInputs.cache
+C:\Users\dhritcu\OneDrive - ENDAVA\Desktop\Facultate\Medii programare\Proiect sem 1\WebProject.Models\obj\Debug\net6.0\WebProject.Models.dll
+C:\Users\dhritcu\OneDrive - ENDAVA\Desktop\Facultate\Medii programare\Proiect sem 1\WebProject.Models\obj\Debug\net6.0\refint\WebProject.Models.dll
+C:\Users\dhritcu\OneDrive - ENDAVA\Desktop\Facultate\Medii programare\Proiect sem 1\WebProject.Models\obj\Debug\net6.0\WebProject.Models.pdb
+C:\Users\dhritcu\OneDrive - ENDAVA\Desktop\Facultate\Medii programare\Proiect sem 1\WebProject.Models\obj\Debug\net6.0\ref\WebProject.Models.dll
