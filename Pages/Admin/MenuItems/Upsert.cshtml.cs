@@ -74,8 +74,8 @@ public class UpsertModel : PageModel
 
                 //delete the old image
                 var oldImagePath = Path.Combine(webRootPath, objFromDb.Image.TrimStart('\\'));
-                if (System.IO.File.Exists(oldImagePath)) 
-                { 
+                if (System.IO.File.Exists(oldImagePath))
+                {
                     System.IO.File.Delete(oldImagePath);
                 }
 
@@ -94,6 +94,6 @@ public class UpsertModel : PageModel
             _unitOfWork.Save();
         }
         return RedirectToPage("./Index");
-     }
+    }
 }
 
